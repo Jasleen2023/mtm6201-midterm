@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.w3_navigation {
+    background-color: #8C6106;
+    color: #fff;
+}
+
+.centered-menu a button {
+    background-color: red;
+    color: #fff;
+}
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.flickering-image {
+  animation: flicker 3s infinite;
+}
+.centered-menu a button:hover {
+    background-color: #555;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
